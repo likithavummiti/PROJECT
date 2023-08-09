@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>welcome to dashboard page</title>
+    </head>
+    <body>
+        <h2>Welcome to dashboard page</h2>
+        <table style='border:blue;border-width:5px;border-style:dotted'></table>
+        {% for key, value in dashboard.items() %}
+    
+           <li><strong>{{ key}}:</label></strong>{{ value}}</li>
+        {% endfor %}
+    </body>
+</html> 
